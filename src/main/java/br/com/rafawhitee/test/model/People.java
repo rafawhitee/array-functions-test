@@ -1,4 +1,4 @@
-package br.com.rafawhite.test.model;
+package br.com.rafawhitee.test.model;
 
 // Only to Test
 public class People {

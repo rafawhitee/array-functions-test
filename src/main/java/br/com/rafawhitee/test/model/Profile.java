@@ -1,4 +1,4 @@
-package br.com.rafawhite.test.model;
+package br.com.rafawhitee.test.model;
 
 import java.io.Serializable;
 import java.util.List;
@@ -75,6 +75,11 @@ public class Profile implements Serializable {
 		} else if (!id.equals(other.id))
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return  id + " - " + description;
 	}
 	
 }
